@@ -19,7 +19,7 @@ def get_sentiments(text):
 
 def get_keywords(text):
     keywords = kw_extractor.extract_keywords(text)
-    return st.write(f"keywords: {keywords}") 
+    return st.write(f"keywords: {keywords[:2]}") 
 
 
 
